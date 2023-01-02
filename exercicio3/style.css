@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 main{
   display: flex;
   gap: 20px;
@@ -10,6 +16,8 @@ main{
   width: 800px;
   margin: 0 auto;
   background-color: orange;
+  
+  
 }
 
 section{
@@ -20,19 +28,29 @@ section{
   justify-content: center;
   align-items: center;
   flex-basis: 80px;
+  margin: 0 auto;
+  padding: 20px;
+  
 }
 
 #section-1{
+  flex-basis: 2;
+
 }
 
 #section-2{
+  flex-grow: 2;
+  
 }
 
 #section-3{
+  flex-grow: 3;
 }
 
 #section-4{
+  flex-grow: 3;
 }
 
 #section-5{
+  order: -1;
 }
